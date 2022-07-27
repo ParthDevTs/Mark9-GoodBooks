@@ -1,0 +1,109 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color: lightgray;
+  height: 100vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family: poppins; */
+}
+
+.nav {
+  background: black;
+  color: white;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-family: monospace;
+  /* text-transform: uppercase; */
+  height: 10rem;
+  display: grid;
+  place-content: center;
+}
+.main {
+  padding: 5rem;
+}
+.nav > h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+.first__part {
+  color: blueviolet;
+}
+.second__part {
+  text-shadow: 0.8rem 0.8rem 1.4rem blueviolet;
+}
+
+.buttons__row {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons__row > button {
+  padding: 0.5rem;
+  color: violet;
+  background-color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.2rem;
+  width: 10rem;
+  transition: all ease-in-out 200ms;
+  border-radius: 1rem;
+}
+.buttons__row > button:hover {
+  box-shadow: 0.1rem 0.1rem 2rem blueviolet;
+  border: 2px solid white;
+}
+
+.books__display {
+  color: white;
+  margin: 5rem;
+  border-top: black 0.2rem solid;
+  /* box-shadow: 0.1rem 0.1rem 5rem blueviolet; */
+  padding: 1rem;
+
+  gap: 5rem;
+
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  align-items: center;
+}
+
+.books__display > * {
+  transition: all ease-in-out 200ms;
+}
+
+.book__tile {
+  border: white 0.1rem solid;
+  padding: 2rem;
+  transition: all ease-in-out 200ms;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  background-color: black;
+  height: 5rem;
+  box-shadow: blueviolet 0.2rem 0.2rem 2rem;
+  min-width: 15rem;
+}
+
+.book__name {
+  transition: all ease-in-out 200ms;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.ratings {
+  color: aqua;
+
+  font-weight: 500;
+  margin: 0.3rem;
+}
