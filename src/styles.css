@@ -68,7 +68,7 @@
   /* box-shadow: 0.1rem 0.1rem 5rem blueviolet; */
   padding: 1rem;
 
-  gap: 5rem;
+  gap: 3rem;
 
   display: flex;
   flex-direction: row;
@@ -82,13 +82,13 @@
 
 .book__tile {
   border: white 0.1rem solid;
-  padding: 2rem;
+  padding: 2rem 2rem 3rem 2rem;
   transition: all ease-in-out 200ms;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  gap: 1rem;
+  gap: 01rem;
   background-color: black;
   height: 5rem;
   box-shadow: blueviolet 0.2rem 0.2rem 2rem;
@@ -106,4 +106,24 @@
 
   font-weight: 500;
   margin: 0.3rem;
+}
+
+footer {
+  display: grid;
+  place-content: center;
+
+  color: aqua;
+  background-color: black;
+
+  padding: 2rem;
+}
+
+footer a {
+  color: aqua;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.footer__title {
+  margin-bottom: 1rem;
 }
